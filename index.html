@@ -1,60 +1,62 @@
 <!DOCTYPE html>
-<html>
-<head>
-	<meta charset="utf-8">
-	<meta name="description" content="Aqui toda nuestra description">
-	<!--Import Google Icon Font-->
-  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <html>
+    <head>
+      <!--Import Google Icon Font-->
+      <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       <!--Import materialize.css-->
       <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
       <!--Let browser know website is optimized for mobile-->
       <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-    </head>
-        </body>
-   |      <header>
-           <nav>
-             <div class="nav-wrapper #f48fb1 pink lighten-3">
-             <a href="#!" class="brand-logo">Logo</a>
-             <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-            <ul class="right hide-on-med-and-down">
-             <li><a href="">Inicio</a></li>
-              <li><a href="">carta</a></li> 
-              <li><a href="">Contacto</a></li>
-             </ul>
-               <ul class="side-nav" id="mobile-demo">
-                <li><a href="">Inicio</a></li>
-                 <li><a href="">Carta</a></li>
-                 <li><a href="">Contacto</a></li>
-                </ul> 
-              </div>
-           </nav>
-         </header>
-          
-      
+      <!--Import jQuery before materialize.js-->
+      <script type="text/javascript" src="js/jquery.min.js"></script>
+      <script type="text/javascript" src="js/materialize.min.js"></script>
+      <script>
+        $( document ).ready(function(){
+          $(".button-collapse").sideNav();
+           $('.slider').slider();
 
+         })
+      </script>
+      </head>
+      <body>
+             
+      <nav class="purple lighten-2">
+    <div class="nav-wrapper"> 
+      <a href="#!" class="brand-logo">DULZURA INFINITA</a>
+      <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="Inicio.html">Inicio</a></li>
+        <li><a href="Nosotros.html">Nosotros</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
+      <ul class="side-nav" id="mobile-demo">
+        <li><a href="Inicio.html">Inicio</a></li>
+        <li><a href="Nosotros.html">Nosotros</a></li>
+        <li><a href="Productos.html">Productos</a></li>
+        <li><a href="mobile.html">Mobile</a></li>
+      </ul>
     </div>
-         </div>
-         <section>
-           <div class"row">
-          <div col. s12">
-          <div class="slider">
+  </nav>
+
+    <div class="slider">
     <ul class="slides">
       <li>
-        <img src="http://lorempixel.com/580/250/nature/1"> <!-- random image -->
+        <img src="http://letsbonus1.statics.download/products/223000/223931/13899682191409-0-680x276.jpg"> <!-- random image -->
         <div class="caption center-align">
-          <h3>This is our big Tagline!</h3>
-          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+          <h3>Cupcakes  de diferentes sabores y colores</h3>
+          <h5 class="light grey-text text-lighten-3">los reyes de ese toque dulce de tu evento</h5>
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/580/250/nature/2"> <!-- random image -->
+        <img src="https://i.ytimg.com/vi/DebIJe4HL84/hqdefault.jpg"> <!-- random image -->
         <div class="caption left-align">
           <h3>Left Aligned Caption</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
         </div>
       </li>
       <li>
-        <img src="http://lorempixel.com/580/250/nature/3"> <!-- random image -->
+        <img src="https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcRkX9dYwgdq9ZfY_aPKtD0dJgJ34JUYYOhaFaWfRh0oMligVQA-"> <!-- random image -->
         <div class="caption right-align">
           <h3>Right Aligned Caption</h3>
           <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
@@ -69,58 +71,32 @@
       </li>
     </ul>
   </div>
+     
       
-           </div>
-         </section>
 
+       
 
-
-
-
-
-           	
-
-
-          </section>
-       <footer class="page-footer #f44336 red">
+    
+     <footer class="light-blue lighten-1 page-footer">
           <div class="container">
             <div class="row">
               <div class="col l6 s12">
-                <h5 class="white-text">Dulzura Infinita nuestro deseo que tu evento no tenga final</h5>
-              
+                <p class="grey-text text-lighten-4">DULZURA INFINITA...LA TENTACION NUNCA TERMINA</p>
               </div>
-              <!-- Facebook icon by Icons8 -->
-            <img class="icon icons8-Facebook" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABpUlEQVRoQ2NkGOKAcYi7n2HUAwMdg6MxMOhjwDZgazAjw/9MRkZGZ3o69v///3v/MzBOP7zBey0+e/EmIbvALR2MDIzl9HQ4ul1AT7QeWu9Vg8sNOD1gE7jVh5mBYfNAOh5u939Gr4MbvLZjcwtOD9gFbj0AlLQfDB74z8Bw8NB6bweSPGAfuPUDUAP/YPAA0A0fD673FiDVA0CPDx4A9ADW1IIzCQFjYNQD2OLPw1GGwd1RmsFQRxhD2iFoG84oHxQx0FJhzGBjJo7TkYPaA6CQr8jVw5upBrUHJjRbMBhoCw1dDxxY54Xh+JqOswxHTr0kqqgb8DyAzQP4kgy6r0Y9QFQ841E0JGMAm6Nx+fHLtz8MPjG7Blc9QIoHLlx9x1BQe2LoemDNlgcMU+ZdG7oeWLDyNgMI4wKjpdCILIWQPT0ki9FRDyCFwGgmHs3EWJrTo61RYLKg26jEaDE60ONCAxEDVB1apNADpA8tDv3B3YBtngyM/3EPlVFaMZCin5zhdZD5Q3qCAxZAQ3qKiZRYHii1o9OsAxXyMHtHY2A0BigMAQCqqAdAcVzITgAAAABJRU5ErkJggg==" width="48" height="48">
+              <div class="col l4 offset-l2 s12"> 
+                <!-- Facebook icon by Icons8 --> <a href="https://www.facebook.com/"> <img class="icon icons8-Facebook" width="48" height="48" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAABoklEQVRoQ2NkGOKAcYi7n2HUAwMdg6MxMOhjwDZgWwATw798BkZGB7o69v//A/8YmCYe3uC1AZ+9eJOQfcDW+cBsnkBXh6NZ9v8/Q+OhDd4NuNyA0wPgkGf8v34gHQ+z++//f45HNvgewOYWnB6wC9x6AChpPxg88J+B4eCh9d5YkzBOD9gHbgXqGzzg4HpvrG4d9QC94mjQxICHowyDu6M0g6GOMIbfHYK24QyPQeGBlgpjBhszcZyOHNQeAIV8Ra4e3hQ3qD0wodmCwUBbaOh64MA6LwzH13ScZThy6iVR5cCA5wFsHsCXZNB9NeoBouIZj6IhGQPYHI3Lj1++/WHwidk1uOoBUjxw4eo7hoLaE0PXA2u2PGCYMu/a0PXAgpW3GUAYFxgthUZkKYTs6SFZjI56ACkERjPxaCbG0pwebY0CkwXdhlVGi9GBHtgajQFSY2DID+4O+eF1UMVlF7BlASMjYzyllRgl+sme4IBZahOw2YGJkamB3nMFoDmBf///NeCa2IC5b3SWkpLkQQ29ozFAjVCkxIzRGKAk9KihFwDVMwpA7Un58gAAAABJRU5ErkJggg==">
 
-
-             
- <!-- Instagram icon by Icons8 -->
-<img class="icon icons8-Instagram" src="data:image/png;base64,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" width="48" height="48">
-            
-
-              </div>
-            </div>
+                <!-- Instagram icon by Icons8 -->
+                      <a href="https://www.instagram.com/"><img class="icon icons8-Instagram" width="48" height="48" src="data:image/png;base64,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">
+                   </div>
+                 </div>
           </div>
-          <div class="footer-copyright">
+          <div class="light-blue lighten-1 footer-copyright">
             <div class="container">
-         Copyright By Dulzura Infinita
-            
-           
-         </div>
-           
+             Dulzura Infinita
+             </div>
           </div>
         </footer>
-           
-
-<!--Import jQuery before materialize.js-->
-      <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-      <script src="js/materialize.min.js"></script>
-      <script>
-          $( document ).ready(function(){
-             $(".button-collapse").sideNav();
-             $('.slider').slider({full_width; true)};
-           });
-    
-          </script>
-      </body>
+            
+   </body>
 </html>
